@@ -3,22 +3,25 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Дизайн-студия Nerds</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
 </head>
 
 <body>
-	<header>
-		<nav>
+	<header class="main-header">
+		<nav class="main-navigation">
 			<a href="index.html">
-				<img src="../img/svg/nerds-logo.svg" alt="логотип дизайн студии нердс" height="" width="">
+				<img src="../img/svg/nerds-logo.svg" alt="логотип дизайн студии нердс" height="65" width="160">
 			</a>
-			<ul class="main-navigation">
-				<li>Студия</li>
-				<li>Клиенты</li>
-				<li>Магазин</li>
-				<li>Контакты</li>	
+			<ul class="site-navigation">
+				<li><a href="">Студия</a></li>
+				<li><a href="">Клиенты</a></li>
+				<li><a href="catalog.html">Магазин</a></li>
+				<li><a href="">Контакты</a></li>	
 			</ul>
 			<ul class="gurbage-navigation">
-				<li>Корзина</li>
+				<li><a href="catalog.html">Корзина</a></li>
 			</ul>
 		</nav>	
 	</header>
@@ -31,10 +34,95 @@
 			<p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
 			<button>Узнать больше</button>
 		</section>
+
+		<section class="our-servese">
+			<h2 class="visually-hidden">Мы сделаем для вас</h2>
+			<ul>
+				<li>
+					<img src="">
+					<h3>Веб-сайты</h3>
+					<p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+					<button>Заказать</button>
+				</li>
+				<li>
+					<img src="">
+					<h3>Приложения</h3>
+					<p>Покорите топ-10 приложений в AppStore и Google Play</p>
+					<button>Заказать</button>
+				</li>
+				<li>
+					<img src="">
+					<h3>Презентации</h3>
+					<p>Вы даже не подозреваете, насколько вы изумительны!</p>
+					<button>Заказать</button>
+				</li>
+			</ul>
+		</section>
+
+		<section class="about-us">
+			<h2 class="visually-hidden">Почему именно мы!</h2>
+			<h3>Мы — маленькая, но гордая дизайн-студия из Краснодара. </h3>
+			<p>Исповедуем принципы минимализма и чистоты. Ставим математический расчетпревыше креатива. Работаем не покладая рук, как роботы.</p>
+			<b>Выполняем заказы на разработку:</b>
+			<ul>
+				<li>Веб-сайтов любой сложности</li>
+				<li>Мобильных приложений для iOS и Android</li>
+				<li>Слайдшоу и видео для корпоративных презентаций</li>
+			</ul>
+			<img src="">
+			<b>с 2004 года Любим точность во всем:</b>
+			<ul>
+				<li>
+					<b>146%</b>
+					<p>Уровень самоотдачи</p>
+				</li>
+				<li>
+					<b>100%</b>
+					<p>Соблюдение сроков</p>
+				</li>
+				<li>
+					<b>50%</b>
+					<p>Минимальная предоплата</p>
+				</li>
+			</ul>
+		</section>
+
+		<section class="our-clients">
+			<h2 class="visually-hidden">Наши клиенты</h2>
+		</section>
+		
+		<section class="map">
+			<h2 class="visually-hidden">Как до нас добраться</h2>
+			<img src="">
+			<div>
+				<b>NЁRDS DESIGN STUDIO</b>
+				<p>191186, Санкт-Петербург,<br> 
+					ул. Б. Конюшенная, д. 19/8<br><br>
+					тел. +7 (812) 275-75-75</p>
+					<button>Напишите нам</button>
+			</div>		
+		</section>
+
 	</main>
 
 	<footer>
-		
+		<h2 class="visually-hidden">Наши социальные сети</h2>
+		<ul>
+			<a href="">
+				<span class="visually-hidden">Вконтакте</span>
+				<svg>
+			</a>
+			<a href="">
+				<span class="visually-hidden">Фейсбук</span>
+				<svg>
+			</a>
+			<a href="">
+				<span class="visually-hidden">Инстаграм</span>
+				<svg>
+			</a>
+		</ul>
+		<b>Давайте дружить, это выгодно!</b>
+		<p>Скидка 10% для друзей из социальных сетей.</p>
 	</footer>
 
 </body>
