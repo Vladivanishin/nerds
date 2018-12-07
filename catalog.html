@@ -32,33 +32,63 @@
 	<main>
 		<section class="filters">
 			<h2 class="visually-hidden">Фильтр товаров</h2>
+			<form class="filter-form" method="post" action="">
 			<fieldset>
 		<ul>
 			<legend>Стоимость:</legend>
 			<li>
-				
+				<form>
+					<input type="" name="">
+				</form>
 			</li>
 		</ul>
 	</fieldset>
 	<fieldset>
 			<legend>Сетка:</legend>
 			<ul>
-			<li>Адаптация</li>
-			<li>Фиксированная</li>
-			<li>Резановая</li>
+			<li class="style-grid">
+				<input type="radio" name="grid-style" id="adaptation-style" checked> 
+				<label for="adaptation-style">Адаптация</label>
+			</li>
+			<li class="style-grid">
+				<input type="radio" name="grid-style" id="fix-style"> 
+				<label for="fix-style">Фексированная</label>
+			</li>
+			<li class="style-grid">
+				<input type="radio" name="grid-style" id="rezin-style"> 
+				<label for="rezin-style">Резиновая</label>
+			</li>
 			</ul>
 		</fieldset>
 		<fieldset>
 			<legend>Особенности:</legend>
 			<ul>
-			<li>Слайдер</li>
-			<li>Блок преимуществ</li>
-			<li>Новости</li>
-			<li>Галерея</li>
-			<li>Корзина</li>
+			<li class="osob-option">
+				<input type="checkbox" name="grid-style" id="slyder-option" checked> 
+				<label for="slyder-option">Слайдер</label>
+			</li>
+			<li class="osob-option">
+				<input type="checkbox" name="grid-style" id="preim-option"> 
+				<label for="preim-option">Блок преимуществ</label>
+			</li>
+			<li class="osob-option">
+				<input type="checkbox" name="grid-style" id="news-option" checked> 
+				<label for="news-option">Новости</label>
+			</li>
+			<li class="osob-option">
+				<input type="checkbox" name="grid-style" id="gallery-option"> 
+				<label for="gallery-option">Галерея</label>
+			</li>
+			<li class="osob-option">
+				<input type="checkbox" name="grid-style" id="korzina-option"> 
+				<label for="korzina-option">Корзина</label>
+			</li>
 		</ul>
-	</fieldset>
-	<button><a href="">Показать</a></button>
+	</fieldset>	
+	<button type="submit" class="button">Показать</button>
+	
+	</form>
+
 		</section>
 
 		<section class="sortirovka">
@@ -75,7 +105,7 @@
 		<section class="catalog-menu">
 			<ul>
 				<li><img src="./img/img-sedona.jpg" width="360" height="576" alt="картинка нашего сайта седона"></li>
-				<li><img src=./img/img-pink.jpg" width="360" height="576" alt="картинка нашего сайта пинк"></li>
+				<li><img src="./img/img-pink.jpg" width="360" height="576" alt="картинка нашего сайта пинк"></li>
 				<li><img src="./img/img-barbershop.jpg" width="360" height="576" alt="картинка нашего сайта барбершоп бородинский"></li>
 				<li><img src="./img/img-mishka.jpg" width="360" height="576" alt="картинка нашего сайта седона"></li>
 				<li><img src="./img/img-aplus.jpg" width="360" height="576" alt="картинка нашего сайта седона"></li>
